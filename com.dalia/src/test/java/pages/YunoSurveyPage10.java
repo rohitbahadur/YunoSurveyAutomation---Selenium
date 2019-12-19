@@ -13,7 +13,7 @@ public class YunoSurveyPage10 extends WaitForPagesToLoad {
 
 	/* Returns the input type element as radio button on page 10 of survey */
 
-	private WebElement likeMostAbout() {
+	private final WebElement likeMostAbout() {
 
 		element = browser.findElement(By.xpath("//label[contains(text(),'Cinematography')]"));
 

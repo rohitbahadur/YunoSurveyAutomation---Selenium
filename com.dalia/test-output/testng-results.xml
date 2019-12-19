@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="26478" started-at="2019-12-19T00:39:27Z" finished-at="2019-12-19T00:39:53Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="26478" started-at="2019-12-19T00:39:27Z" finished-at="2019-12-19T00:39:53Z">
+      <class name="test.YunoSurveySampleTest">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:test.YunoSurveySampleTest@26653222]" name="openBrowser" is-config="true" duration-ms="8516" started-at="2019-12-19T00:39:27Z" description="Test SetUp Started" finished-at="2019-12-19T00:39:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="yunoSurvery()[pri:0, instance:test.YunoSurveySampleTest@26653222]" name="yunoSurvery" duration-ms="17277" started-at="2019-12-19T00:39:35Z" description="Yuno Survery" finished-at="2019-12-19T00:39:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- yunoSurvery -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.YunoSurveySampleTest@26653222]" name="closeBrowser" is-config="true" duration-ms="641" started-at="2019-12-19T00:39:53Z" description="Test setup Completed" finished-at="2019-12-19T00:39:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- test.YunoSurveySampleTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
